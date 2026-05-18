@@ -1,0 +1,12 @@
+{
+  "name": "mini-qa-tickets-playwright-python-ai-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Helper scripts for Playwright MCP and Playwright CLI usage alongside the Python automation project.",
+  "scripts": {
+    "mcp:playwright": "npx @playwright/mcp@latest",
+    "cli:help": "npx playwright-cli --help",
+    "cli:skills": "npx playwright-cli install --skills",
+    "cli:open-app": "npx playwright-cli open http://localhost:3000 --headed"
+  }
+}
